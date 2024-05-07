@@ -1,4 +1,5 @@
 <!doctype html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -12,6 +13,7 @@
   </head>
   <body>
   <div class="container  mx-auto text-center">
+  <img src="<c:url value='/resources/images/logo.jpg'/>" alt="logo" width="66px" height="66px"/>
     <h1>Welcome to search Application</h1><br><br>
     <div class="card mx-auto " style="width: 50rem;>
       <div class="card-body mx-auto ">
